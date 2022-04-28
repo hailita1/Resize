@@ -1,0 +1,19 @@
+#drag {
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    background: orange;
+    bottom: 0;
+    left: 0;
+}
+
+#content {
+    position: fixed;
+    width: 100%;
+    height: 5px;
+    background-color: black;
+    z-index: 2;
+    cursor: n-resize;
+    max-height: 600px;
+}
+
